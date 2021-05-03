@@ -1,1 +1,13 @@
-# Hello World
+# Hindmasj And His Uncertain Ramblings
+
+## Tumblr
+
+I used to maintain a [tumblr site](https://open-badger.tumblr.com/). I have not posted there in a long time but there are some nice pictures. I might start to move the best bits over to here.
+
+## Technical Posts
+
+Some of the themes to come are on Emacs, Ansible and Docker.
+
+## Other Posts
+
+I want to see how versatile this site is. Can I post external content, like from my [Flickr Account](https://www.flickr.com/photos/55891150@N00/)? We shall see.
