@@ -12,8 +12,11 @@ I used to maintain a [tumblr site](https://open-badger.tumblr.com/). I have not 
 
 Some of the themes to come are on Emacs, Ansible and Docker.
 
-* [Build A CentOS Distro In WSL2](centos-image)
-* [Configure A WSL2 CentOS Instance For Docker](wsl-docker)
+* WSL
+** [Build A CentOS Distro In WSL2](centos-image)
+** [Configure A WSL2 CentOS Instance For Docker](wsl-docker)
+* Git
+** [Detect If You Are In The Right Tag Or Commit](git-commit-detect)
 
 ## Other Posts
 
