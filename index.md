@@ -12,11 +12,14 @@ I used to maintain a [tumblr site](https://open-badger.tumblr.com/). I have not 
 
 Some of the themes to come are on Emacs, Ansible and Docker.
 
-* WSL
-** [Build A CentOS Distro In WSL2](centos-image)
-** [Configure A WSL2 CentOS Instance For Docker](wsl-docker)
-* Git
-** [Detect If You Are In The Right Tag Or Commit](git-commit-detect)
+### [WSL](wsl/wsl-index)
+  * [Build A CentOS Distro In WSL2](wsl/centos-image)
+  * [Configure A WSL2 CentOS Instance For Docker](wsl/wsl-docker)
+  * [Mount and Unmount the D Drive](wsl/mount-d-drive)
+
+### [Git](git/git-index)
+  * [A Workflow For Jumping Between Red and Green Side](git/red-green-working.md)
+  * [Detect If You Are In The Right Tag Or Commit](git/git-commit-detect)
 
 ## Other Posts
 
