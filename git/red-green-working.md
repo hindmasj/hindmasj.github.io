@@ -1,6 +1,6 @@
 # A Workflow For Jumping Between Red and Greenside working
 
-I find my self often working on projects where the root repository is locked behind a firewall and can only be accessed with a privileged device like a corporate laptop. But the laptop is not powerful enough to do the development on, and I want to use a dedicated machine.
+I often find myself working on projects where the root repository is locked behind a firewall and can only be accessed with a privileged device like a corporate laptop. But the laptop is not powerful enough to do the development on, and I want to use a dedicated machine.
 
 This article shows you a workflow that helps you do this.
 
@@ -8,16 +8,16 @@ This article shows you a workflow that helps you do this.
 
 To make the description clear I will use the following terminology.
 
-* Greenside Network: The firewalled network which needs privilege to connect to.
-* Redside Network: The Internet.
-* Main Repo: The protected greenside git repository that myself and my colleagues are all committing to. The main repo cannot be accessed through the firewall.
-* Laptop: The privileged device that can connect to the greenside network and can interact with the main repo.
-* Workstation: The unprivileged device that I want to do the bulk of my work on, but cannot connect to the greenside network.
-* USB: A USB memory stick that can be read by both the laptop and workstation. Would recommend encrypting it.
-* Foo: The project I am working on.
-* Bar: The branch I am working on.
-* Develop: The branch everybody is merging to.
-* Workspace: The parent directory of the project working directory. I use *${HOME}/workspace*.
+* **Greenside Network**: The firewalled network which needs privilege to connect to.
+* **Redside Network**: The Internet.
+* **Main Repo**: The protected greenside git repository that myself and my colleagues are all committing to. The main repo cannot be accessed through the firewall.
+* **Laptop**: The privileged device that can connect to the greenside network and can interact with the main repo.
+* **Workstation**: The unprivileged device that I want to do the bulk of my work on, but cannot connect to the greenside network.
+* **USB**: A USB memory stick that can be read by both the laptop and workstation. Would recommend encrypting it.
+* **Foo**: The project I am working on.
+* **Bar**: The branch I am working on.
+* **Develop**: The branch everybody is merging to.
+* **Workspace**: The parent directory of the project working directory. I use *${HOME}/workspace*.
 
 # Preparation
 
@@ -51,7 +51,7 @@ So now you have a working directory on the laptop and it has remotes set up. The
 
 Eject the USB stick from the laptop and plug it into the workstation. We will assume from here on if you are working on a device, the USB will be plugged into that device and correctly mounted.
 
-On the workstation you only need to clone the project from the USB. On my workstation I use WSL instances and [mount the USB on */mnt/d*](../mount-d-drive). The workflow here is mount the USB, clone the project, then unmount the USB. The working directory on the workstation only has one remote, *origin* which will point back to the USB.
+On the workstation you only need to clone the project from the USB. On my workstation I use WSL instances and [mount the USB on */mnt/d*](../wsl/mount-d-drive). The workflow here is mount the USB, clone the project, then unmount the USB. The working directory on the workstation only has one remote, *origin* which will point back to the USB.
 
 ````
 dmount
