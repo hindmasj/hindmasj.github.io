@@ -20,7 +20,7 @@ sudo mount -t drvfs D:\\ ${mp} -o uid=${user},gid=${group}
 
 ## Unmounting Script
 
-Likewise the unmounting script.
+Likewise the unmounting script, *unmount-d-drive.sh*.
 
 ````
 #!/usr/bin/env bash
