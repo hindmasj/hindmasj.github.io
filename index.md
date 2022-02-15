@@ -21,6 +21,9 @@ Some of the themes to come are on Emacs, Ansible and Docker.
   * [A Workflow For Jumping Between Red and Green Side](git/red-green-working.md)
   * [Detect If You Are In The Right Tag Or Commit](git/git-commit-detect)
 
+### [Misc](misc/misc-index)
+  * [Some Redis Notes](misc/redis.md)
+
 ## Other Posts
 
 I want to see how versatile this site is. Can I post external content, like from my [Flickr Account](https://www.flickr.com/photos/55891150@N00/)? We shall see.

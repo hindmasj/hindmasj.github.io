@@ -1,6 +1,5 @@
 # Git Hints and Tips
 
-
 [Home](../index)
 
 * [A Workflow For Jumping Between Red and Green Side](red-green-working.md)
