@@ -122,11 +122,11 @@ git checkout feature/bar
 git push -u origin feature/bar
 ```
 
-Setting the upstream is option, but for consistency it is best to have the tracking upstream point towards the main repo, then you know where are later when you are pushing and pulling commits.
+Setting the upstream is optional, but for consistency it is best to have the tracking upstream point towards the main repo, then you know where you are later when you are pushing and pulling commits.
 
 ## Create On Laptop
 
-This is not preferred, but if you get in this situation you need to push both to the main repo and the USB. You would get into this situation if the main repo was not one of the git servers, like Github or Gitlab, so the only way of creating and merging feature branches.
+This is not preferred, but if you get in this situation you need to push both to the main repo and the USB. You would get into this situation if the main repo was not one of the git servers, like Github or Gitlab, so the only way of creating and merging feature branches is to do it in a working directory.
 
 ### On Laptop
 
