@@ -6,7 +6,12 @@ I often find myself working on projects where the root repository is locked behi
 
 This article shows you a workflow that helps you do this.
 
-## Terminology
+* [Terminology](#terminology)
+* [Preparation](#preparation)
+* [Create The Working Branch](#create)
+* [Check Which Branch Is Where](#check)
+
+## <a name="terminology"></a>Terminology
 
 To make the description clear I will use the following terminology.
 
@@ -21,7 +26,7 @@ To make the description clear I will use the following terminology.
 * **Develop**: The branch everybody is merging to.
 * **Workspace**: The parent directory of the project working directory. I use *${HOME}/workspace*.
 
-# Preparation
+# <a name="preparation"></a>Preparation
 
 ## Preparing Greenside
 
@@ -62,7 +67,7 @@ git clone /mnt/d/repos/foo.git
 dunmount
 ````
 
-# Create The Working Branch
+# <a name="create"></a>Create The Working Branch
 
 You will be doing the work on a feature branch, which you later merge/drop into develop. You can create this branch either on the main repo, laptop or workstation, and then propagate it to the other locations.
 
@@ -143,7 +148,7 @@ git pull
 git checkout feature/bar
 ```
 
-## Check Which Branch Is Where
+# <a name="check"></a>Check Which Branch Is Where
 
 You can run ``git branch --all -vv`` to get a view of which branches are known about, where they are tracked and if they up to date. Here is the view from the laptop.
 
@@ -210,10 +215,60 @@ $ git branch --all -vv
 
 So now the current branch is the laptop one, and by comparing the commit ID it matches what is on the laptop and in the main repo.
 
+# <a name="committing"></a>Committing
+Committing is pretty simple. Depending on where you do the commit, you have to take different actions to ensure all of the repos and working directories are up to date.
+
+## Commit On The Workstation
+You have made some changes and now you are ready to commit them. Commit then push to the rest of the repos.
+
+### Workstation
+Commit the changes and push to the USB.
+```
+$ git commit -m "a message"
+$ git push
+```
+### Laptop
+Plug the USB into the laptop, pull from it, then push to the main repo.
+```
+$ git pull usb feature/bar
+$ git push
+```
+
+## Commit On The Laptop
+Not preferred, but maybe you spotted a mistake while transferring and fixed it there and then.
+
+### Laptop
+Push to both the main repo and the USB.
+```
+$ git push
+$ git push usb feature/bar
+```
+
+### Workstation
+Update from the USB
+```
+$ git pull
+```
+
+## Commit On The Main Repo
+Perhaps someone else has made some changes on your branch and you want them.
+
+### Laptop
+Pull from main, push to USB.
+```
+$ git pull
+$ git push usb feature/bar
+```
+
+### Workstation
+Bring the working directory up to date.
+```
+$ git pull
+```
+
 # TODO
 
 This is a big article so I will work on it in chunks. Still to come:
 
-* Scenarios for committing work and keeping all repos up to date.
 * Scenarios for merging your work into the develop branch and updating all repos.
 * Some general tips for getting out of jail.
