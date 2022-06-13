@@ -10,6 +10,7 @@ This article shows you a workflow that helps you do this.
 * [Preparation](#preparation)
 * [Create The Working Branch](#create)
 * [Check Which Branch Is Where](#check)
+* [Committing](#committing)
 
 ## <a name="terminology"></a>Terminology
 
