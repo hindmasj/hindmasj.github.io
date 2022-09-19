@@ -18,8 +18,10 @@ Some of the themes to come are on Emacs, Ansible and Docker.
   * [Mount and Unmount the D Drive](wsl/mount-d-drive)
 
 ### [Git](git/git-index)
+  * [Git Setup Troubleshooting](setup-troubleshooting.md)
   * [A Workflow For Jumping Between Red and Green Side](git/red-green-working.md)
   * [Detect If You Are In The Right Tag Or Commit](git/git-commit-detect)
+  * [Using Git Bundle](using-git-bundle.md)
 
 ### [Misc](misc/misc-index)
   * [Some Redis Notes](misc/redis.md)
