@@ -1,6 +1,6 @@
 # Detect If You Are In The Correct Tag, Commit Or Branch
 
-[Home](../index.md) | [Back](git-index.md)
+[Home](../index.md) | [Up](git-index.md)
 
 I was recently writing some scripts that had to work with external git repositories and they had to be certain they were in specific commits. So the following bash snippets show how you can detect if you are in the correct commit, based on either the hash or the tag, or tracking a branch. Then switch if you are not.
 
@@ -49,3 +49,5 @@ else
   echo "yes"
 fi
 ````
+---
+[Home](../index.md) | [Up](git-index.md)

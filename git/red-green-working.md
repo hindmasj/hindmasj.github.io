@@ -1,6 +1,6 @@
 # A Workflow For Jumping Between Red and Greenside working
 
-[Home](../index.md) | [Back](git-index.md)
+[Home](../index.md) | [Up](git-index.md)
 
 I often find myself working on projects where the root repository is locked behind a firewall and can only be accessed with a privileged device like a corporate laptop. But the laptop is not powerful enough to do the development on, and I want to use a dedicated machine.
 
@@ -11,6 +11,7 @@ This article shows you a workflow that helps you do this.
 * [Create The Working Branch](#create)
 * [Check Which Branch Is Where](#check)
 * [Committing](#committing)
+* [Merging](#merging)
 
 ## <a name="terminology"></a>Terminology
 
@@ -266,10 +267,49 @@ Bring the working directory up to date.
 ```
 $ git pull
 ```
+# <a name="merging"></a>Merging
+Through merging you incorporate your work onto the main branch. If the work is complete, the feature is finished or the bug is solved, you will also be deleting the working branch.
 
-# TODO
+## Use Pull / Merge Requests
+If you are using a tool like Github or Gitlab, use the merge mechanism on the platform to complete the merge in preference to any other place.
 
-This is a big article so I will work on it in chunks. Still to come:
+## Merge On The Laptop
+If you need to merge within the tools then do this as close to the shared repository as possible. Push the updated main branch back to the central repository and also the USB repository.
 
-* Scenarios for merging your work into the develop branch and updating all repos.
-* Some general tips for getting out of jail.
+```
+git checkout main
+git merge bar
+git push
+git push usb main
+```
+Repeat the pull on the workstation to ensure it is also up to date.
+
+## Clean Up Stale Branches
+
+If the branch is now finished with you should drop it wherever it exists.
+
+### Delete The Branch In The Working Space
+```
+git checkout main
+git branch -d bar
+```
+
+### Delete The Branch In A Remote Repository
+```
+git push --delete origin bar
+git push --delete usb bar
+```
+
+### Bring The Local Repository Up To Date With The Remote
+Ensure the working space is up to date with any branches there might be on the remote.
+```
+git remote update origin
+```
+
+Delete any stale branches held locally that no longer exist on the remote.
+```
+git remote prune origin
+```
+
+---
+[Home](../index.md) | [Up](git-index.md)
