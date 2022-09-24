@@ -1,6 +1,6 @@
 # Build any distro in WSL2
 
-[Home](../index) | [Back](wsl-index)
+[Home](../index) | [Up](wsl-index)
 
 This uses the trick of exporting a docker container to create the initial distro disk.
 See [Microsoft WSL Guide](https://docs.microsoft.com/en-us/windows/wsl/use-custom-distro)
@@ -65,4 +65,4 @@ wsl -d CentOS7
 ````
 
 ---
-[Home](../index) | [Back](wsl-index)
+[Home](../index) | [Up](wsl-index)

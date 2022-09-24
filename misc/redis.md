@@ -1,6 +1,6 @@
 # Some Redis Notes
 
-[Home](../index) | [Back](misc-index)
+[Home](../index) | [Up](misc-index)
 
 ## Reading
 
@@ -112,4 +112,4 @@ Note each key is a CIDR, just in case the record is attached to a single address
 So this method speeds up searches at the expense of needing more storage space, but not as much space as if you just exploded the records so that there was a full record for each address in the range.
 
 ---
-[Home](../index) | [Back](misc-index)
+[Home](../index) | [Up](misc-index)

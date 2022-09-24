@@ -51,4 +51,4 @@ git config credential.helper 'cache --timeout 28800'
 git config --global push.default simple
 ```
 ---
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)

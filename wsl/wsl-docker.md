@@ -1,6 +1,6 @@
 # WSL Integration For CentOS
 
-[Home](../index) | [Back](wsl-index)
+[Home](../index) | [Up](wsl-index)
 
 (and Fedora and probably other nixes)
 
@@ -23,4 +23,4 @@ sudo usermod -aG docker hindmasj
 You need to start a new shell to pick up the new group.
 
 ---
-[Home](../index) | [Back](wsl-index)
+[Home](../index) | [Up](wsl-index)

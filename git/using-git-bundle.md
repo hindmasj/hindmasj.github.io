@@ -47,4 +47,4 @@ git remote add bndl foo.bundle
 A bundle is a one way street. To send your changes back, create a new bundle with the refs you have changed. At the far end add the new bundle as a remote and pull in the changes; push them to the main repo as needed.
 
 ---
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)
