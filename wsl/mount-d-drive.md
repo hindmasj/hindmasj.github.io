@@ -1,5 +1,7 @@
 # Mount and Unmount the D Drive
 
+[Home](../index) | [Back](wsl-index)
+
 A common action is to want to mount or unmount a USB stick into the WSL instance. This is usually mounted as *D:* on Windows and I want to mount it as */mnt/d*.
 
 ## Mounting Script
@@ -52,3 +54,6 @@ And in *~/.bashrc*
 ````
 
 Create a new shell and you will have the aliases ``dmount`` and ``dunmount`` available to you. Note that both use *sudo* so be prepared to enter your password when you use the scripts.
+
+---
+[Home](../index) | [Back](wsl-index)

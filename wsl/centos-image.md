@@ -1,5 +1,7 @@
 # Build any distro in WSL2
 
+[Home](../index) | [Back](wsl-index)
+
 This uses the trick of exporting a docker container to create the initial distro disk.
 See [Microsoft WSL Guide](https://docs.microsoft.com/en-us/windows/wsl/use-custom-distro)
 
@@ -61,3 +63,6 @@ Exit, make sure the instance is stopped, then restart. You should now be the def
 wsl --terminate CentOS7
 wsl -d CentOS7
 ````
+
+---
+[Home](../index) | [Back](wsl-index)

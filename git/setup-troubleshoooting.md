@@ -1,6 +1,6 @@
 # Setup Troubleshooting
 
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)
 
 Overcoming the main problems you encounter cloning and setting up a new workspace.
 

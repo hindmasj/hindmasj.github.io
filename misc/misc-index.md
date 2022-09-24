@@ -2,4 +2,4 @@
 
 [Home](../index)
 
-* [Some Redis Notes](redis.md)
+* [Some Redis Notes](redis)

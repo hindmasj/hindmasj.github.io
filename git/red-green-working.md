@@ -1,6 +1,6 @@
 # A Workflow For Jumping Between Red and Greenside working
 
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)
 
 I often find myself working on projects where the root repository is locked behind a firewall and can only be accessed with a privileged device like a corporate laptop. But the laptop is not powerful enough to do the development on, and I want to use a dedicated machine.
 
@@ -312,4 +312,4 @@ git remote prune origin
 ```
 
 ---
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)

@@ -1,6 +1,6 @@
 # Using Git Bundle
 
-[Home](../index.md) | [Up](git-index.md)
+[Home](../index) | [Up](git-index)
 
 Use a bundle to create a versioned extract of part or all of your repository. You use the bundle like a remote but it is not a repo. It represents a fixed point in time for the repo and cannot be pushed to.
 
