@@ -16,6 +16,7 @@ Some of the themes to come are on Emacs, Ansible and Docker.
   * [Build A CentOS Distro In WSL2](wsl/centos-image)
   * [Configure A WSL2 CentOS Instance For Docker](wsl/wsl-docker)
   * [Mount and Unmount the D Drive](wsl/mount-d-drive)
+  * [Push You Own Images To Docker Hub](wsl/push-to-hub)
 
 ### [Git](git/git-index)
   * [Git Setup Troubleshooting](git/setup-troubleshooting)

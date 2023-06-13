@@ -30,7 +30,7 @@ You only need to do this once per project.
 1. Sign in.
 1. Create repository.
 
-### Push Your Image
+## Push Your Image
 
 ```
 docker login --username <username>
