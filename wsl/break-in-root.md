@@ -15,7 +15,7 @@ As this is being run by WSL, not docker, you need to use WSL commands.
 For example, make sure sudo is installed and your default user has full access.
 
 ```
-> wsl --user root RockyLinux-9-Base
+> wsl --user root --distribution RockyLinux-9-Base
 
 # dnf install sudo
 # usermod -G wheel myuser
