@@ -11,7 +11,9 @@
 
 ## Set default branch name
 
-``git config --global init.defaultBranch main``
+```
+git config --global init.defaultBranch main
+```
 
 ## Set your github access token in the remote
 
@@ -36,4 +38,6 @@ Be careful to keep this local repository private as those tokens give full acces
 
 Assuming you have a private repository server to use as a remote, and you are using Windows as your local development environment, then you need to get git to trust the certificates from the remote, instead of using "sslVerify=false" all the time.
 
-``git config --global http.sslBackend schannel``
+```
+git config --global http.sslBackend schannel
+```
