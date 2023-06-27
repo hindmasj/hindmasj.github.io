@@ -15,7 +15,7 @@
 
 ## Set your github access token in the remote
 
-This means you no longer need to provide credentials to sync with githib when you make changes in the particular repository.
+This means you no longer need to provide credentials to sync with github when you make changes in the particular repository.
 
 First create a token in github: Settings / Developer Settings / Personal Access Tokens / Tokens (classic)
 
