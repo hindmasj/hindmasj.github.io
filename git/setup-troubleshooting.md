@@ -15,6 +15,12 @@ git -c http.sslVerify=false clone <url>
 ```
 git config http.sslVerify false
 ```
+
+## On Windows
+If the trust is built into Windows certificate storage mechanism
+```
+git config --global http.sslBackend schannel
+```
 # Ignore A Proxy
 In cases where the repo is not behind a proxy, but a proxy has been set up.
 
