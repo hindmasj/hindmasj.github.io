@@ -19,6 +19,8 @@ Some of the themes to come are on Emacs, Ansible and Docker.
   * [Push You Own Images To Docker Hub](wsl/push-to-hub)
   * [Break Into An Instance As Root](wsl/break-in-root)
   * [Troubleshooting JetBrains Fleet](wsl/using-fleet)
+  * [Solve Closing Error On Windows Terminal](wsl/close-on-exit)
+  * [Upgrade a Fedora Instance](wsl/upgrade-fedora)
 
 ### [Git](git/git-index)
   * [Git Setup Troubleshooting](git/setup-troubleshooting)

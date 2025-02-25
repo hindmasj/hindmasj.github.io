@@ -8,3 +8,5 @@
 * [Push You Own Images To Docker Hub](push-to-hub)
 * [Break Into An Instance As Root](break-in-root)
 * [Troubleshooting JetBrains Fleet](using-fleet)
+* [Solve Closing Error On Windows Terminal](close-on-exit)
+* [Upgrade a Fedora Instance](upgrade-fedora)

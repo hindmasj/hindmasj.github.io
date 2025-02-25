@@ -33,7 +33,7 @@ stdout:
 stderr: /bin/bash: line 1: ip: command not found
 ```
 
-Conclusion - Fleet uses WSL to run some commands inside the image, and this one is failing because the command it wants does no exist! The solution is simple: ``sudo dnf install iptoute`` will install the "ip" command. The Rocky image I am using is pretty minimal so I am not surprised a package the comes with CentOS by default is not a default package for Rocky.
+Conclusion - Fleet uses WSL to run some commands inside the image, and this one is failing because the command it wants does no exist! The solution is simple: ``sudo dnf install iproute`` will install the "ip" command. The Rocky image I am using is pretty minimal so I am not surprised a package the comes with CentOS by default is not a default package for Rocky.
 
 
 ---
