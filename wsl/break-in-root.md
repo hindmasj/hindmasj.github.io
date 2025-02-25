@@ -18,7 +18,7 @@ For example, make sure sudo is installed and your default user has full access.
 > wsl --user root --distribution RockyLinux-9-Base
 
 # dnf install sudo
-# usermod -G wheel myuser
+# usermod -aG wheel myuser
 # exit
 ```
 
