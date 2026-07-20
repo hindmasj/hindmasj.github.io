@@ -2,8 +2,6 @@
 
 [Home](../index) | [Up](git-index)
 
-In Progress
-
 GitHub really want you to use the fine-grained personal access tokens (PAT). This guide shows you how to set it up on Rocky Linux with local git repositories with GitHub remotes.
 
 ## Create Token
@@ -37,8 +35,6 @@ Everything up-to-date
 ```
 
 ## Install Github CLI Credential Manager (gh)
-
-(This bit is in progress)
 
 The [GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm) contains a credential manager for integrating into git on the Linuc command line. This needs to be manually installed as it is not available in the main Rocky 9 repo.
 
