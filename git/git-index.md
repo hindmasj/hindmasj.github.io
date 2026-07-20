@@ -6,6 +6,7 @@
 * [A Workflow For Jumping Between Red and Green Side](red-green-working)
 * [Detect If You Are In The Right Tag Or Commit](git-commit-detect)
 * [Using Git Bundle](using-git-bundle)
+* [Using GitHub Personal Access Tokens](using-github-pats)
 
 # Quick Tips
 

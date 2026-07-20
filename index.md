@@ -27,6 +27,7 @@ Some of the themes to come are on Emacs, Ansible and Docker.
   * [A Workflow For Jumping Between Red and Green Side](git/red-green-working)
   * [Detect If You Are In The Right Tag Or Commit](git/git-commit-detect)
   * [Using Git Bundle](git/using-git-bundle)
+  * [Using GitHub Personal Access Tokens](git/using-github-pats)
 
 ### [Misc](misc/misc-index)
   * [Some Redis Notes](misc/redis)

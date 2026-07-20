@@ -67,8 +67,7 @@ gh auth login
 ! Authentication credentials saved in plain text
 ✓ Logged in as foo
 ```
-
-
+Now try a push on some new commit and test that it works.
 
 ---
 [Home](../index) | [Up](git-index)
