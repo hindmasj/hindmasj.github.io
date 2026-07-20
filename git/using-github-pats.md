@@ -65,5 +65,17 @@ gh auth login
 ```
 Now try a push on some new commit and test that it works.
 
+## Using A PAT With JetBrains Fleet
+
+(In Progress)
+
+Add these extra permissions for use with Fleet.
+
+* Administration - Read Only
+* Gists (Use Account tab) - Read & Write
+* Workflows - Read & Write
+
+Still not working. Raised [as an issue with JetBrains](https://youtrack.jetbrains.com/issue/FL-34464/Login-To-GitHub-With-Fine-grained-Personal-Access-Token-has-insufficient-scopes).
+
 ---
 [Home](../index) | [Up](git-index)
