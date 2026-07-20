@@ -1,6 +1,6 @@
-# Using GitHub Personal Access Tokens
-
 [Home](../index) | [Up](git-index)
+
+# Using GitHub Personal Access Tokens
 
 GitHub really want you to use the fine-grained personal access tokens (PAT). This guide shows you how to set it up on Rocky Linux with local git repositories with GitHub remotes.
 
