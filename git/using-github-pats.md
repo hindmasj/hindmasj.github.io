@@ -36,7 +36,7 @@ Everything up-to-date
 
 ## Install Github CLI Credential Manager (gh)
 
-The [GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm) contains a credential manager for integrating into git on the Linuc command line. This needs to be manually installed as it is not available in the main Rocky 9 repo.
+The [GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm) contains a credential manager for integrating into git on the Linux command line. This needs to be manually installed as it is not available in the main Rocky 9 repo.
 
 * Verify the GPG keys.
 * Install the repo using DNF4 (for Rocky 9) commands.
