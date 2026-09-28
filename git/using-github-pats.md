@@ -18,11 +18,11 @@ Create the token and then save it somewhere safe, like your password manager. Yo
 
 ## Change Your Push Remote
 
-You cannot store the PAT in plaintext in the git remote as you could for the classic tokens. So remove any existing tokens from the remote's push URL.
+You cannot store the PAT in plaintext in the git remote as you could for the classic tokens. So remove any existing tokens from the remote's push URL by deleting the push URL.
 
 ```
 git remote show origin
-git remote set-url --push origin https://github.com/<username>/<repo-name>.git
+git remote set-url --push origin ''
 ```
 
 Now test the token by trying a push. You will need to paste in the token value when prompted for the password.
