@@ -32,6 +32,9 @@ Some of the themes to come are on Emacs, Ansible and Docker.
 ### [Misc](misc/misc-index)
   * [Some Redis Notes](misc/redis)
 
+### [HTML](html)
+  * An experimental landing page to see how working in raw HTML works.
+
 ## Other Posts
 
 I want to see how versatile this site is. Can I post external content, like from my [Flickr Account](https://www.flickr.com/photos/55891150@N00/)? We shall see.
